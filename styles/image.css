@@ -1,0 +1,66 @@
+h2{
+    text-align: center;
+    color: #890417;
+    font-family: sans-serif;
+}
+article h3{
+    font-size: medium;
+}
+.popularBags{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 280px 280px;
+    grid-gap: 20px;
+    padding: 10px;
+}
+/* The following is just some basic CSS to create boxes */
+.bags div{
+   border: 3px solid #890417;
+   border-radius: 10px;
+   box-shadow: 0 0 5px #890417;
+   background-color: white;
+   padding: 10px;
+   color:black;
+   text-align: left;
+   font-family: sans-serif;
+   font-weight: normal;
+}
+.bags div img{
+    width: 180px;
+    align-items: left;
+}
+aside h3{
+    color: #890417; /* changes colour */
+    text-align: center; /* centers text */
+    font-family: sans-serif; /* changes font family */
+    font-size: 16px; /* changes font size */
+    background-color: #f7e7d9; /* adds a background colour */
+    padding: 10px 0; /* adds some space on the top and bottom */
+}
+aside ul{
+    list-style: none; /* removes the dots */
+    padding-left: 0; /* removes the gap on the left */
+    font-size: small; 
+}
+aside li:nth-child(odd){
+    background-color: rgb(194, 26, 107); /* add a background colour */
+}
+aside li{
+    line-height: 30px; /* So that we have more space above and below the list items. You can also use padding instead! */
+    padding-left: 10px; /* to push the text a little bit away from the left */
+}
+aside li:nth-child(even){
+    background-color:rgb(255, 230, 242); /* add a background colour */
+}
+aside ul li:nth-child(odd) a{
+    color: white; /* change the colour of the text */
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+aside ul li:nth-child(even) a{
+    color:#890417; /* change the colour of the text */
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}

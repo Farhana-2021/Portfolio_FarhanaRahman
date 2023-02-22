@@ -1,0 +1,123 @@
+body{
+    width: 1120px; /* increase the width of the body to make space for the sidebar on the right */
+    border: 2px solid black;/* add a 2px border in black around the content */
+    margin: 20px auto; /* 20px margin from top and bottom of the browser body and auto makes the content sit equidistant from the left and right of the browser body */
+    padding: 20px; /* make the con2px solid black; tent inside the body sit at a 20px gap from all the 4 sides */
+    border-radius: 10px; /* round the edges of the border */
+    font-family: sans-serif; /* change the default font to sans serif */
+}
+header{
+    text-align: right; /* Center the text in the header*/
+}
+header img{
+    float:right;
+    width: 270px;
+    border: 3px solid rgb(158, 18, 107);
+    border-radius: 10px;
+}
+h1{
+    color: rgb(158, 18, 107); /* using a hex code to change the colour */
+    font-family: cursive; /* changes how the text looks to use the cursive font */
+    text-shadow: 20px;
+    text-shadow: 2px 2px;
+}
+nav{
+    background-color:rgb(173, 54, 112); /* add colour to the nav background */
+    padding: 20px 0; /* add a 20 px top and bottom padding in the nav tag  */
+    text-align: center; /* make the text in the nav centered */
+    width:1120px;
+}
+nav a{
+    font-size: 20px; /* make the text bigger than default */
+    font-weight: bold; /* make the text bold */
+    color: yellow; /* change the colour of the text links */
+    text-decoration: none; /* remove the underline */
+    padding: 0 30px; /* push the links away from the other links */
+}
+nav ul{ /* applies these styles to all the child <ul> tags in <nav> */
+    list-style-type: none; /* remove the dots from the list */
+    padding: 0;
+    margin: 0;
+}
+nav>ul>li{ /* Only applies these styles to the immediate child <li> in the immediate child <ul> in <nav>. Basically it only affects the <li> in the main menu not the sub menu */
+    display: inline-block; /* to make the links in the main menu site side by side */
+    position: relative; /* to make the parent <li> as the container element of the absolutely positioned <ul> representing the sub menu */
+}
+nav ul li ul { /* applies styles only to the sub menu */
+	width: 200px;
+	position: absolute; /* put the sub menu in a separate layer */
+	z-index: 999; /* make sure the sub menu is not hidden behind other elements */
+	text-align: left;
+	background-color: rgb(189, 19, 101);
+    box-shadow: 0 0 5px #800d29;
+}
+nav ul li ul li a{ /* styles for the <a> in the sub menu */
+    color: white;
+    padding: 10px;
+    display: block; /* to make sure the anchor tags occupy all the space available otherwise the hover colour changes do not have a good user experience. */
+    font-size: medium;
+}
+nav ul li ul li:hover a:hover{ /* styles for the <a> in the sub menu on mouse over */
+    color: rgb(151, 14, 81);
+    background-color: #f7e7d9;
+}
+nav ul li ul { /* applies styles only to the sub menu */
+    display: none; /* hide the sub menu by default */
+}
+nav ul li:hover ul{/* applies styles only to the sub menu whose parent <li> is hovered */
+    display: block; /* show the sub menu when a user brings their mouse over the parent <li> */
+}
+.thumbnail{
+    float:left;
+    width: 120px;
+    background-color: rgb(198, 175, 175);
+}
+.thumbnail img{
+    width: 95px;
+    border:2px solid darkred;
+    border-radius: 10px;
+}
+.thumbnail div{
+    width:100px;
+    height:fit-content;
+    padding: 5px;
+    margin: 5px;
+}
+.thumbnail ul{
+    list-style: none; /* removes the dots */
+    padding-left: 0; /* removes the gap on the left */
+}
+.thumbnail p{
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #820316;
+}
+main{
+    width: 620px; /* set the width of the main section */
+    float: left; /* push the main section to the left */
+    margin-left:50px;
+    position: relative; /* to make this div the relative ancestor of .herotext */
+}
+aside{
+    width: 280px; /* set the width of the sidebar */
+    float: right; /* push the sidebar to the right */
+    padding-left: 10px; /* add a 20px space on the left*/
+}
+footer{
+    clear: both; /* clear the floating elements above */
+    height:auto;
+    text-align: center; /* Center the text in the footer */
+    font-weight: bold; /* make the text bold */
+    background-color: #f7e7d9; /* add colour to the  background */
+    padding: 0 0 20px 0; /* add a 20 px top and bottom padding in the footer tag  */
+    font-size: 20px; /* make the text bigger than default */
+    color: #9f0015; /* change the colour of the text */
+}
+footer nav{
+    background-color: rgb(194, 26, 107);
+    margin-bottom: 20px;
+}
+footer nav a{
+    color: white;
+}

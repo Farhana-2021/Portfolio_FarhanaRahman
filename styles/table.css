@@ -1,0 +1,72 @@
+h2{
+    text-align: center;
+    color: #890417;
+    font-family: sans-serif;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:600px;
+    text-align: center;
+    margin: 20px auto;
+    color:black;
+    border:2px solid rgb(151, 14, 81);
+    padding:5px 4px;
+}
+th, td{
+    border:2px solid rgb(151, 14, 81);
+    padding:5px 4px;
+    font-size: medium;
+}
+td{
+    white-space: nowrap;
+    text-align: center;
+}
+th{
+    font-weight: bold;
+    text-align: center;  
+    color:rgb(151, 14, 81);
+    font-size: medium;
+}
+thead{
+    background-color: burlywood;
+}
+p{
+    font-weight: bold;
+    color: blue;
+}
+aside h3{
+    color: #890417; /* changes colour */
+    text-align: center; /* centers text */
+    font-family: sans-serif; /* changes font family */
+    font-size: 16px; /* changes font size */
+    background-color: #f7e7d9; /* adds a background colour */
+    padding: 10px 0; /* adds some space on the top and bottom */
+}
+aside ul{
+    list-style: none; /* removes the dots */
+    padding-left: 0; /* removes the gap on the left */
+    font-size: small; 
+}
+aside li:nth-child(odd){
+    background-color: rgb(194, 26, 107); /* add a background colour */
+}
+aside li{
+    line-height: 30px; /* So that we have more space above and below the list items. You can also use padding instead! */
+    padding-left: 10px; /* to push the text a little bit away from the left */
+}
+aside li:nth-child(even){
+    background-color:rgb(255, 230, 242); /* add a background colour */
+}
+aside ul li:nth-child(odd) a{
+    color: white; /* change the colour of the text */
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+aside ul li:nth-child(even) a{
+    color:#890417; /* change the colour of the text */
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}

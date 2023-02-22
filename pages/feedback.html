@@ -1,0 +1,136 @@
+<!--Farhana Rahman, Student No. 8817914-->
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/feedback.css">
+    <title>LXR Luxury Bags</title>
+</head>
+<body>
+        <header>
+        <h1>LXR Luxury Bags</h1>
+        <img src="../images/title.jpg" alt="LXR">
+    </header><br><br><br><br><br><br>
+   
+    <nav>
+        <!-- First level UL for the main -->
+        <ul>
+            <li><a href="../pages/index.html">Home</a></li>
+            <li>
+                <a href="../pages/image.html">Popular Styles</a>
+                <!-- Second level UL for the sub menu -->
+                <ul>
+                    <li><a href="">Totes</li></a>
+                    <li><a href="">Shoulder Bags</li></a>
+                    <li><a href="">Handbags</li></a>
+                    <li><a href="">Crossbody</li></a>
+                    <li><a href="">Wallets</li></a>
+                </ul>
+            </li>
+            <li><a href="../pages/video.html">Designers</a></li>
+            <li><a href="../pages/table.html">Our Commitments</a></li>
+            <li><a href="../pages/feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+        <div class="thumbnail">
+            <ul>
+                <div><li><a href="../pages/index.html"><img src="../thumbnails/thumbnail1.jpg"></a></li><p>About Us</p></div>
+                <div><li><a href="../pages/image.html"><img src="../thumbnails/thumbnail2.jpg"></a></li><p>Top 10 Popular Styles</p></div>
+                <div><li><a href="../pages/video.html"><img src="../thumbnails/thumbnail3.jpg"></a></li><p>Designers' Collection</p></div>
+                <div><li><a href="../pages/table.html"><img src="../thumbnails/thumbnail4.jpg"></a></li><p>Our Commitments' Output</p></div>
+                <div><li><a href="../pages/feedback.html"><img src="../thumbnails/thumbnail5.png"></a></li><p>Feedback</p></div>
+            </ul>
+        </div>
+     
+    <main>
+            <h2>Customer Feedback Form</h2>
+            <p>Thank you for using our product! <br> We value all of our customers and strive to meet everyone's needs!</p>
+            <div class="form1">
+            <form action="process-form" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input tabindex="1" type="text" id="name" name="name" placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input tabindex="2" type="email" id="email" name="email" placeholder="Your Email">
+                </div>
+                <div>
+                    <label>Which type of bags you like the most?</label>
+                    <select tabindex="3" name="preference">
+                        <optgroup label="Designers' Bags">
+                            <option value="DB1">Shoulder Bag</option>
+                            <option value="DB2">Two Way Handbag</option>
+                            <option value="DB3">Tote Bag</option>
+                        </optgroup>
+                        <optgroup label="Regular Bags">
+                            <option value="RB1">Wallet Bag</option>
+                            <option value="RB2">Crossbody Bag</option>
+                            <option value="RB3">Hobo Bag</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label>What do like the most about our bags?</label>
+                    <select tabindex="4" name="features" multiple>
+                        <option value="price">Reasonable Price</option>
+                        <option value="design"> New Designs</option>
+                        <option value="color"> Variation in Color</option>
+                        <option value="size">Different sizes</option>
+                        <option value="availability">Available online and stores</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label>Comments:</label>
+                    <textarea tabindex="5" name="comments" cols="50" rows="7" placeholder="Type in your comments here..."></textarea>
+                </div>
+                <div >
+                    <input tabindex="6" type="reset" value="Clear Form">
+                </div>
+            </form> 
+        </div>
+    </main>
+
+    <aside>
+       
+        <div class="form2">
+            <h4>Website Feedback Form</h3>
+        <form action="process-form" method="post">
+            <div>
+                <label>Were you able to find what you needed?</label>
+                <input tabindex="7" type="radio" name="yes" id="yes" value="Yes">Yes&nbsp;&nbsp;&nbsp;
+                <input tabindex="8" type="radio" name="no" id="no" value="No">No
+            </div>
+            <div>
+                <label>What did you like about our site?</label>
+                <ul>
+                <li><input tabindex="9" type="checkbox" name="info" value="Well Designed">Well Designed</li>
+                <li><input tabindex="10" type="checkbox" name="info" value="Informative">Informative</li>
+                <li><input tabindex="11" type="checkbox" name="info" value="Updated">Updated</li>
+                <li><input tabindex="12" type="checkbox" name="info" value="Easy Access">Easy Access</li>
+                <li><input tabindex="13" type="checkbox" name="info" value="Easy payment process">Easy payment process</li>
+            </ul>
+            </div>
+        </form> 
+        </div>
+    </aside>
+    
+    <footer>
+        <nav>
+            <!-- First level UL only for the footer -->
+            <ul>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Investors</a></li>
+            </ul>
+        </nav>
+        &copy; 2022 Group Global LXR  
+    </footer>
+
+</body>
+</html>

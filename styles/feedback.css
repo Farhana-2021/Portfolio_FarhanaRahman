@@ -1,0 +1,110 @@
+h2{
+    text-align: center;
+    color: #890417;
+    font-family: sans-serif;
+}
+p{
+    color:blue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    line-height: 20px;
+}
+.form1{
+    width: 520px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 50px auto;
+    color: white;
+    background-color:  rgb(134, 29, 64);
+    border-radius: 20px;
+}
+.form2{
+    width: 200px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin-top: 80px;
+    color: white;
+    background-color:  rgb(134, 29, 64);
+    border-radius: 20px;
+}
+.form1 label{
+    width: 260px;
+    display:inline-flex;
+    font-size: 14px; 
+    font-weight: bold;
+    color: white;
+    text-align:justify;
+    line-height: 20px;
+}
+input:not([type="checkbox"]), select{
+    font-size: 12px;
+    font-family: 'Kalam', cursive;
+    padding: 5px 10px;
+}
+input:not([type="checkbox"]){
+    width: 220px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+select{
+    width: 243px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+textarea{
+    width:500px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+input[type="reset"]{
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-family: 'Kalam', cursive;
+    border: 0px;
+    padding: 8px;
+    height: 40px;
+    box-shadow: 4px 4px 0px grey;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+input[type="reset"]:active{
+    box-shadow: -4px -4px 0px yellow;
+}
+h4{
+    color:white;
+    text-decoration: underline;
+}
+.form2 label{
+    width: 200px;
+    display:inline-flex;
+    font-size: 14px; 
+    font-weight: bold;
+    color: white;
+    text-align:justify;
+    line-height: 20px;
+}
+.form2 div{
+    margin-left:0px;
+    padding-left: 0px;
+    margin-bottom: 25px;
+}
+input[type="radio"]{
+    width:auto;
+}
+input[type="checkbox"]{
+   font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
