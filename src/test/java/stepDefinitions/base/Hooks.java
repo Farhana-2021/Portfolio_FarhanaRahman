@@ -1,4 +1,4 @@
-package base;
+package stepDefinitions.base;
 
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;

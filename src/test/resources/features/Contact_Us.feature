@@ -1,9 +1,11 @@
-@contact-us
+@contact-us @regression
 
 Feature: WebDriver University - Contact Us page
 
-  Scenario: Validate Successful Submission - Unique data
+  Background:
     Given I access the webdriver university contact us page
+
+  Scenario: Validate Successful Submission - Unique data
     When I enter a unique first name
     And I enter a unique last name
     And I enter a unique email address
@@ -13,7 +15,6 @@ Feature: WebDriver University - Contact Us page
 
 
   Scenario: Validate Successful Submission - specific data
-    Given I access the webdriver university contact us page
     When I enter a specific first name Sarah
     And I enter a specific last name Mohammad
     And I enter a specific email address Sarah123@mail.com
