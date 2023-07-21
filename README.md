@@ -1,2 +1,2 @@
 # Portfolio_FarhanaRahman
-Projects of SDLC includes system analysis, process mapping, re-engineering and manual/automated software testing
+Project on Luxury Handbags Online Bag Store includes wesite UI development: A project to create a website, Luxury Handbags – An online Bag Store, from scratch using well-formed HTML5 and CSS3 structure including semantic elements and AODA considerations when developing. Webpages have a consistent template with navigation bar, title, navigation area, article area, footer. Two tier navigation bar is used to highlight the main menu and sub menu of items.
