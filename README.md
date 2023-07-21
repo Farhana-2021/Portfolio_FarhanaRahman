@@ -1,2 +1,2 @@
 # Portfolio_FarhanaRahman
-Projects of SDLC includes system analysis, process mapping, re-engineering and manual/automated software testing
+Project on EDO Online Performance Measurement Tool capstone project: A Capstone Project - covering SDLC of The Economic Development Officer (EDO) Online Performance Measurement Tool for a client, The Evidence Network Inc., located in Toronto. Created software requirement specification and analysis, User Interface Prototypes, Unit Test Plan, and test results. Developed diagrams like Use Case, State Chart, Domain Class, Entity Relationship and many more. Executed manual tests on functional and non-functional requirements.
